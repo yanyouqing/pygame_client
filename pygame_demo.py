@@ -13,7 +13,7 @@ pygame.init()
 screen = pygame.display.set_mode((640, 480), 0, 32)
 # 设置窗口标题
 pygame.display.set_caption('hello world')
-# 游戏主循化
+# 游戏主循化123
 while True:
     for event in pygame.event.get():
         # 接收到退出事件后，退出程序
