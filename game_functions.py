@@ -4,7 +4,7 @@ import pygame
 
 
 def check_events(ship):
-    """响应按键和鼠标事件"""
+    """响应按键和鼠标事件123"""
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()

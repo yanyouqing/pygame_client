@@ -26,5 +26,5 @@ def run_game():
 
 
 if __name__ == '__main__':
-    # 运行主程序
+    # 运行主程序123
     run_game()
