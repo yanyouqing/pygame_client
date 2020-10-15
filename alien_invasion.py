@@ -21,9 +21,10 @@ def run_game():
     # 开始游戏的主循环
     while True:
         # 监控退出事件
-        gf.check_events()
+        gf.check_events(ship)
         gf.update_scree(ai_settings, screen, ship)
 
 
-# 运行主程序
-run_game()
+if __name__ == '__main__':
+    # 运行主程序
+    run_game()

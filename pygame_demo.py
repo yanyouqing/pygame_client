@@ -16,7 +16,7 @@ pygame.display.set_caption('Hello,World')
 background = pygame.image.load(background_image_filename).convert()
 mouse_cursor = pygame.image.load(mouse_image_filename).convert_alpha()
 
-# 游戏主循化123
+# 游戏主循化
 while True:
     for event in pygame.event.get():
         # 接收到退出事件后，退出程序
